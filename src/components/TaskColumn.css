@@ -1,0 +1,13 @@
+.task_column_header{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+   
+}
+.task-coloumn{
+    width: 100%;
+    justify-content: space-around;
+   
+    
+}

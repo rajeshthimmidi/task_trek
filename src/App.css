@@ -1,0 +1,9 @@
+.task-column-container{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+
+.task_column_icon{
+  height: 20px;
+}

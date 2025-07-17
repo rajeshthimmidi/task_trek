@@ -1,0 +1,9 @@
+.tags{
+    width: auto;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+

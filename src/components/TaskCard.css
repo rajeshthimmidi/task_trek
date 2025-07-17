@@ -1,0 +1,41 @@
+.task-card{
+     width: 80%;
+    min-height: 100px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 15px;
+    margin-left: 50px;
+    cursor: grab;
+    
+}
+.remove-icon{
+    width: 20px;
+    height: 20px;  
+    border-radius: 100%; 
+    display: flex;
+    opacity: 50%;
+    align-items: center;    
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+.task-card-remove-icon:hover.remove-icon{
+   opacity: 80%;
+}
+.remove-icon:hover{
+    opacity: 100%;
+}
+.task-card-tags{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.card-bottom-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
